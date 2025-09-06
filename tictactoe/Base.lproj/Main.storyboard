@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tictactoelocal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fG-D2-PbG">
+                                <rect key="frame" x="10" y="187" width="108" height="108"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="HHi-n9-AfU"/>
+                                    <constraint firstAttribute="height" constant="108" id="qlz-1C-St5"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="buselectEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="75i-Kt-HdP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sec-r3-d7H">
+                                <rect key="frame" x="128" y="187" width="108" height="108"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="8dG-L0-542"/>
+                                    <constraint firstAttribute="width" constant="108" id="JaH-gQ-R66"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="buselectEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aDs-vv-j5H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9SW-yG-Wsi">
+                                <rect key="frame" x="246" y="187" width="137" height="108"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="be2-vE-gtg"/>
+                                    <constraint firstAttribute="height" constant="108" id="l5P-Ma-hYe"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="buselectEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QYi-If-kDP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctl-aP-SeC">
+                                <rect key="frame" x="10" y="305" width="108" height="108"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="WtX-mi-jJd"/>
+                                    <constraint firstAttribute="height" constant="108" id="kPp-J6-cAD"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="buselectEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qwU-zk-zMO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3CB-Iw-vHX">
+                                <rect key="frame" x="128" y="305" width="108" height="108"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="Q4R-dR-h3l"/>
+                                    <constraint firstAttribute="height" constant="108" id="dCX-jf-Jyh"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="buselectEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="br2-WA-moF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7PG-J4-Ome">
+                                <rect key="frame" x="246" y="305" width="137" height="108"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="DyG-np-h0m"/>
+                                    <constraint firstAttribute="width" constant="108" id="Xlr-Sf-TbF"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="buselectEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5qH-Fd-BFL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5Y-e3-YZJ">
+                                <rect key="frame" x="10" y="423" width="108" height="108"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="6RZ-a7-wLC"/>
+                                    <constraint firstAttribute="height" constant="108" id="zen-ht-XH9"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="buselectEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MCg-vo-6OB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="msg-uh-3SK">
+                                <rect key="frame" x="128" y="423" width="108" height="108"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="4ii-Wr-549"/>
+                                    <constraint firstAttribute="height" constant="108" id="zgI-Fy-HvQ"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="buselectEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ood-sy-2i4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fs-Yx-mXY">
+                                <rect key="frame" x="246" y="423" width="137" height="108"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="7MZ-JP-QW5"/>
+                                    <constraint firstAttribute="width" constant="108" id="xZq-eR-gOd"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="buselectEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4si-4T-ygN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.69565108506965734" green="0.76810959666364131" blue="0.86078912019729614" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9SW-yG-Wsi" secondAttribute="trailing" constant="10" id="1ae-R7-QXC"/>
+                            <constraint firstItem="Sec-r3-d7H" firstAttribute="leading" secondItem="2fG-D2-PbG" secondAttribute="trailing" constant="10" id="2ZT-3p-2cF"/>
+                            <constraint firstItem="Sec-r3-d7H" firstAttribute="leading" secondItem="2fG-D2-PbG" secondAttribute="trailing" constant="10" id="63E-YF-xcR"/>
+                            <constraint firstItem="Sec-r3-d7H" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="69" id="6VX-rm-yzn"/>
+                            <constraint firstItem="3CB-Iw-vHX" firstAttribute="leading" secondItem="ctl-aP-SeC" secondAttribute="trailing" constant="10" id="6rx-s2-val"/>
+                            <constraint firstItem="msg-uh-3SK" firstAttribute="leading" secondItem="c5Y-e3-YZJ" secondAttribute="trailing" constant="10" id="79l-oW-vZp"/>
+                            <constraint firstItem="3CB-Iw-vHX" firstAttribute="leading" secondItem="ctl-aP-SeC" secondAttribute="trailing" constant="10" id="AFu-ml-PI3"/>
+                            <constraint firstItem="7PG-J4-Ome" firstAttribute="leading" secondItem="3CB-Iw-vHX" secondAttribute="trailing" constant="10" id="AMS-ea-Q3m"/>
+                            <constraint firstItem="9SW-yG-Wsi" firstAttribute="leading" secondItem="Sec-r3-d7H" secondAttribute="trailing" constant="10" id="Ayh-e3-ff6"/>
+                            <constraint firstItem="6fs-Yx-mXY" firstAttribute="top" secondItem="7PG-J4-Ome" secondAttribute="bottom" constant="10" id="BAD-cR-HkB"/>
+                            <constraint firstItem="3CB-Iw-vHX" firstAttribute="top" secondItem="Sec-r3-d7H" secondAttribute="bottom" constant="10" id="Ggf-4U-08p"/>
+                            <constraint firstItem="7PG-J4-Ome" firstAttribute="top" secondItem="9SW-yG-Wsi" secondAttribute="bottom" constant="10" id="GjX-nF-t0g"/>
+                            <constraint firstItem="msg-uh-3SK" firstAttribute="leading" secondItem="c5Y-e3-YZJ" secondAttribute="trailing" constant="10" id="INb-8a-SgE"/>
+                            <constraint firstItem="c5Y-e3-YZJ" firstAttribute="top" secondItem="ctl-aP-SeC" secondAttribute="bottom" constant="10" id="NIc-Ys-So9"/>
+                            <constraint firstItem="9SW-yG-Wsi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="69" id="QW3-Dn-mgV"/>
+                            <constraint firstItem="7PG-J4-Ome" firstAttribute="leading" secondItem="3CB-Iw-vHX" secondAttribute="trailing" constant="10" id="Sae-pj-AW5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6fs-Yx-mXY" secondAttribute="trailing" constant="10" id="WjO-bO-wQ1"/>
+                            <constraint firstItem="msg-uh-3SK" firstAttribute="leading" secondItem="c5Y-e3-YZJ" secondAttribute="trailing" constant="10" id="WzY-gy-F0K"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6fs-Yx-mXY" secondAttribute="trailing" constant="10" id="XIQ-9d-6oc"/>
+                            <constraint firstItem="ctl-aP-SeC" firstAttribute="top" secondItem="2fG-D2-PbG" secondAttribute="bottom" constant="10" id="a8O-Ge-NTj"/>
+                            <constraint firstItem="2fG-D2-PbG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="69" id="cSH-HH-7Ly"/>
+                            <constraint firstItem="2fG-D2-PbG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="cwU-N2-Mu2"/>
+                            <constraint firstItem="c5Y-e3-YZJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="cxi-Dx-gO1"/>
+                            <constraint firstItem="3CB-Iw-vHX" firstAttribute="leading" secondItem="ctl-aP-SeC" secondAttribute="trailing" constant="10" id="dLB-kF-Kk1"/>
+                            <constraint firstItem="Sec-r3-d7H" firstAttribute="leading" secondItem="2fG-D2-PbG" secondAttribute="trailing" constant="10" id="f6O-t6-GV8"/>
+                            <constraint firstItem="ctl-aP-SeC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="gxp-ir-fns"/>
+                            <constraint firstItem="6fs-Yx-mXY" firstAttribute="leading" secondItem="msg-uh-3SK" secondAttribute="trailing" constant="10" id="kGE-gB-zbw"/>
+                            <constraint firstItem="msg-uh-3SK" firstAttribute="top" secondItem="3CB-Iw-vHX" secondAttribute="bottom" constant="10" id="kVY-Gu-O1B"/>
+                            <constraint firstItem="6fs-Yx-mXY" firstAttribute="leading" secondItem="msg-uh-3SK" secondAttribute="trailing" constant="10" id="muA-Wp-iIc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7PG-J4-Ome" secondAttribute="trailing" constant="10" id="nKA-gA-PWj"/>
+                            <constraint firstItem="c5Y-e3-YZJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="pKB-Tt-Xzx"/>
+                            <constraint firstItem="9SW-yG-Wsi" firstAttribute="leading" secondItem="Sec-r3-d7H" secondAttribute="trailing" constant="10" id="rha-1x-W3u"/>
+                            <constraint firstItem="9SW-yG-Wsi" firstAttribute="leading" secondItem="Sec-r3-d7H" secondAttribute="trailing" constant="10" id="rrE-ve-Mbc"/>
+                            <constraint firstItem="2fG-D2-PbG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="saj-1V-zcm"/>
+                            <constraint firstItem="7PG-J4-Ome" firstAttribute="leading" secondItem="3CB-Iw-vHX" secondAttribute="trailing" constant="10" id="vYh-6Q-zSv"/>
+                            <constraint firstItem="6fs-Yx-mXY" firstAttribute="leading" secondItem="msg-uh-3SK" secondAttribute="trailing" constant="10" id="xJI-PQ-n0L"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9SW-yG-Wsi" secondAttribute="trailing" constant="10" id="xsf-nn-uRt"/>
+                            <constraint firstItem="ctl-aP-SeC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="z81-in-8Kz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7PG-J4-Ome" secondAttribute="trailing" constant="10" id="zfc-bf-7xn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bu1" destination="2fG-D2-PbG" id="CHV-uK-0Wb"/>
+                        <outlet property="bu2" destination="Sec-r3-d7H" id="aks-GJ-Rse"/>
+                        <outlet property="bu3" destination="9SW-yG-Wsi" id="2Pm-Od-J4G"/>
+                        <outlet property="bu4" destination="ctl-aP-SeC" id="NkD-wJ-h01"/>
+                        <outlet property="bu5" destination="3CB-Iw-vHX" id="lCE-NA-pC2"/>
+                        <outlet property="bu6" destination="7PG-J4-Ome" id="PCb-Ub-vq8"/>
+                        <outlet property="bu7" destination="c5Y-e3-YZJ" id="8iQ-aX-bdM"/>
+                        <outlet property="bu8" destination="msg-uh-3SK" id="ejH-Ez-1Qj"/>
+                        <outlet property="bu9" destination="6fs-Yx-mXY" id="KCf-yy-n1B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
